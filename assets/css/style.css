@@ -1,0 +1,202 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: #EEA653(31, 31, 31);
+}
+.banner_name {
+  flex: 1;
+  width: 990px;
+  align-items: center;
+  display: flex;
+  color: rgb(0, 0, 0);
+  background-color: #eea653;
+  justify-content: center;
+}
+.name {
+  text-decoration: solid;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#s-1 {
+  margin-bottom: 30px;
+  display: flex;
+  height: 400px;
+  background-color: black;
+  justify-content: center;
+}
+.container1 {
+  display: flex;
+  width: 990px;
+  justify-content: space-around;
+}
+.c1_text {
+  flex: 1;
+  height: auto;
+  width: auto;
+  align-items: center;
+  margin: auto;
+}
+.frase {
+  font-size: 30px;
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+  color: #edbe87;
+}
+
+.c1_img {
+  flex: 1;
+  align-items: center;
+  height: auto;
+  width: auto;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url("/assets/images/paul_walker.jpg");
+}
+/* .c1_img img {
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  
+  height: auto;
+} */
+#s-2 {
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+.container2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+}
+
+.c2 {
+  margin-bottom: 60px;
+  flex: 1;
+  height: auto;
+  padding-bottom: 20px;
+  background-color: #eea653;
+  color: black;
+  text-align: right;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container3 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+  background-color: #c8c8c8;
+}
+.c3 {
+  margin-top: 70px;
+  flex: 1;
+  height: auto;
+  color: black;
+  text-align: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #c8c8c8;
+}
+.c2 h3,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: solid;
+}
+.c2 p {
+  font-size: 17.5px;
+  border-right: 5px solid #eee;
+  padding-right: 15px;
+  text-align: right;
+}
+.c2 h3 {
+  font-size: 24px;
+}
+.c3 h3,
+.c3 p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: solid;
+}
+.c3 h3 {
+  font-size: 24px;
+}
+.c3 p {
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+  padding-left: 15px;
+  text-align: left;
+}
+#footer1 {
+  display: flex;
+  justify-content: center;
+}
+.footer_bar {
+  width: 990px;
+  height: 30px;
+  background-color: #eea653;
+}
+
+#link_referencia {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: solid;
+  text-align: center;
+  margin-left: 20px;
+}
+.containers-c2 {
+  display: flex;
+  justify-content: center;
+  width: 990px;
+}
+
+@media (max-width:584px) {  
+
+  .containers-c2{
+    display: none;
+  }
+  .name{
+    font-size: 25px;
+    text-align: center;
+  }
+  .container1{ 
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .c1_text{
+    display: flex;
+    justify-content: center;
+  }
+  .frase{
+    font-size: 20px;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
